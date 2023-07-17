@@ -4,6 +4,29 @@
 .nav-area {
   padding: 60px 0;
 }
+.nav-logo {
+  text-align: end;
+}
+.header-media-icon {
+  text-align: end;
+}
 .header-icon i {
   margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+  .nav-logo {
+    text-align: center !important;
+    margin-bottom: 20px;
+  }
+  .header-media-icon {
+    text-align: center;
+  }
+  .header-icon i {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+  .header-icon i:last-child {
+    margin-right: 0;
+  }
 }

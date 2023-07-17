@@ -7,10 +7,10 @@ const Project = () => {
     <section className="project-area">
       <Container>
         <div className="project-content">
-          <Row className="gx-5">
+          <Row>
             <Col lg={6}>
               <div className="project-video">
-                <div className="ratio ratio-4x3">
+                <div className="ratio ratio-4x3 w-100">
                   <iframe
                     src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
                     title="YouTube video"

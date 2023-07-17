@@ -10,12 +10,12 @@ const Header = () => {
       <Container className="nav-content">
         <Row>
           <Col lg={6}>
-            <div className="nav-logo  bg-transparent text-end ">
+            <div className="nav-logo  bg-transparent ">
               <img className="" src={logo} alt="" />
             </div>
           </Col>
           <Col lg={6}>
-            <div className="text-white text-end">
+            <div className="text-white header-media-icon">
               <div className="header-icon pl-3">
                 <i className="fa-solid fa-house"></i>
                 <i className="fa-brands fa-twitter"></i>

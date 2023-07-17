@@ -11,7 +11,7 @@ const Hero = () => {
       <Container>
         <div className="hero-content">
           <div className="hero-elements">
-            <Row>
+            <Row className="d-md-flex">
               <Col lg={6}>
                 <div className="hero-element-text">
                   <div className="hero-heading">

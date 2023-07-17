@@ -10,16 +10,16 @@ const Footer = () => {
         <div className="footer-content text-center">
           <Row className="align-items-center">
             <Col lg={4}>
-              <h3 className="text-white">FAQ</h3>
+              <h3 className="text-white d-md-none d-lg-block">FAQ</h3>
             </Col>
             <Col lg={4}>
               <img src={footerImage} alt="" className="footer-image" />
             </Col>
             <Col lg={4}>
-              <div className="text-white text-end">
-                <div className="header-icon pl-3">
-                  <i className="fa-solid fa-house"></i>
-                  <i className="fa-brands fa-twitter"></i>
+              <div className="text-white">
+                <div className="footer-icon d-md-none d-lg-block">
+                  <i className="fa-solid fa-house pe-3"></i>
+                  <i className="fa-brands fa-twitter pe-3"></i>
                   <i className="fa-brands fa-instagram"></i>
                 </div>
               </div>

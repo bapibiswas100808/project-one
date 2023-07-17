@@ -7,7 +7,7 @@ const Value = () => {
     <section className="value-area">
       <Container>
         <div className="value-content">
-          <Row className="gx-5">
+          <Row>
             <Col lg={6}>
               <div className="value-text">
                 <h1 className="value-heading text-white">
