@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Hero.css";
 import Header from "../Header/Header";
-import heroImage from "../../../src/Images/heroImage.png";
+import heroImage from "../../../src/Images/hero-gif.gif";
 
 const Hero = () => {
   return (
@@ -23,7 +23,7 @@ const Hero = () => {
                     THE PROJECT <br />
                     NAYOM1
                   </h1>
-                  <p className="text-white">
+                  <p className="text-white pt-4">
                     PROJECT NAYOM1 NFT Collection is a collaborative project by
                     Another-1 & Casadei, creatively directed by shoe designer
                     Ricardo Cook and artistically supported by 3D artist

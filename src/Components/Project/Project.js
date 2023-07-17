@@ -10,11 +10,11 @@ const Project = () => {
           <Row className="gx-5">
             <Col lg={6}>
               <div className="project-video">
-                <div class="ratio ratio-4x3">
+                <div className="ratio ratio-4x3">
                   <iframe
                     src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
                     title="YouTube video"
-                    allowfullscreen
+                    // allowfullscreen
                   ></iframe>
                 </div>
               </div>

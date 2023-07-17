@@ -18,10 +18,8 @@ body {
   font-family: "Montserrat", sans-serif !important;
 }
 h1,
-h2,
-h3 {
-  font-size: 70px;
-  font-weight: 200;
+h2 {
+  font-size: 90px !important;
 }
 p {
   font-size: 18px;

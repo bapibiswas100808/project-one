@@ -17,9 +17,9 @@ const Header = () => {
           <Col lg={6}>
             <div className="text-white text-end">
               <div className="header-icon pl-3">
-                <i class="fa-solid fa-house"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-solid fa-house"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-instagram"></i>
               </div>
             </div>
           </Col>
