@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "./Hero.css";
 import Header from "../Header/Header";
 import heroImage from "../../../src/Images/hero-gif.gif";
+import heroTimer from "../../Images/Group 21.png";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
       <Container>
         <div className="hero-content">
           <div className="hero-elements">
-            <Row className="d-md-flex">
+            <Row>
               <Col lg={6}>
                 <div className="hero-element-text">
                   <div className="hero-heading">
@@ -33,6 +34,7 @@ const Hero = () => {
                     the fashion world and web3. Each NFT allows for the physical
                     forging of the limited edition ‘NAYOM1 Blade’ heels.
                   </p>
+                  <img src={heroTimer} alt="" className="w-100" />
                 </div>
               </Col>
               <Col lg={6}>

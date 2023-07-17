@@ -37,7 +37,6 @@
 @media (max-width: 768px) {
   .hero-element-image {
     position: static;
-    display: flex !important;
     order: -1;
   }
   .hero-element-text {
